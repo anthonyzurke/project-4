@@ -26,19 +26,17 @@ You will be given a dataset and teams will be randomly assigned to one constrain
 ### Team Samples -
 - Your choice of algorithm
 - Your choice of features
-- **The class's sample constraint**
+- **Must use the cheap sample**
 
 ### Team Features
 - Your choice of algorithm
-- **The class's feature constraint**
+- **Limited to a maximum of 20 features**
 - Your choice of samples
 
 ### Team Algorithm
-- **The class's algorithm constraint**
+- **Must use a logistic regression**
 - Your choice of features
 - Your choice of samples
-
-You should be aware that **the class's constraint** while not the worst-case scenario, **will be highly unfavorable to you.**  
 
 Your team will have until 5:00 Eastern / 4:00 Central (East Coast) or 5:00 Mountain / 4:00 Pacific (West Coast) to build the best model possible under those constraints.
 
