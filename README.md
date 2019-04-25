@@ -34,7 +34,7 @@ You will be given a dataset and teams will be randomly assigned to one constrain
 - Your choice of samples
 
 ### Team Algorithm
-- **Must use a logistic regression**
+- **Must use a Random Forest**
 - Your choice of features
 - Your choice of samples
 
@@ -44,7 +44,7 @@ Your team will have until 5:00 Eastern / 4:00 Central (East Coast) or 5:00 Mount
 
  Descriptions of the data can be found [here](http://archive.ics.uci.edu/ml/machine-learning-databases/adult/old.adult.names) and [here](http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.names).
 
-You should return via Slack (TBD) your predicted probabilities of income being **above** $50,000 for each row in that set. This will simply be a csv with a single column of floats of the probability  **_with 'wage' as a header_**.
+You should return via Slack to the appropriate individual (ask your local instructor) your predicted probabilities of income being **above** $50,000 for each row in that set. This will simply be a csv with a single column of floats of the probability  **_with 'wage' as a header_**.
 
 The task is to predict if a person's income is in excess of $50,000 given certain profile information.
 
