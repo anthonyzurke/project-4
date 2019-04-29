@@ -23,17 +23,17 @@ Today we will apply this concept to data science.
 You will be given a dataset and teams will be randomly assigned to one constraint: samples, features or algorithm.
 
 
-### Team Samples -
+### Team Sample Constraint
 - Your choice of algorithm
 - Your choice of features
-- **Must use the cheap sample**
+- **Must use the cheap train sample**
 
-### Team Features
+### Team Features Constraint
 - Your choice of algorithm
 - **Limited to a maximum of 20 features**
 - Your choice of samples
 
-### Team Algorithm
+### Team Algorithm Constraint
 - **Must use a Random Forest**
 - Your choice of features
 - Your choice of samples
