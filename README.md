@@ -22,6 +22,7 @@ Today we will apply this concept to data science.
 
 You will be given a dataset and teams will be randomly assigned to one constraint: samples, features or algorithm.
 
+---
 
 ### Team Sample Constraint
 - Your choice of algorithm
@@ -43,9 +44,12 @@ Your team will have until 5:00 Eastern / 4:00 Central (East Coast) or 5:00 Mount
 # ![](https://media.giphy.com/media/aL4bDxt8fbpy8/giphy.gif)
 
  Descriptions of the data can be found [here](http://archive.ics.uci.edu/ml/machine-learning-databases/adult/old.adult.names) and [here](http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.names).
+ 
+ ### Submission
+ ---
 
-You should return via Slack to the appropriate individual (ask your local instructor) your predicted probabilities of income being **above** $50,000 for each row in that set. This will simply be a csv with a single column of floats of the probability  **_with 'wage' as a header_**.
+The task is to predict if a person's income is in excess of $50,000 given certain profile information, and more specifically to generate predicted probabilities of income being **above** $50,000 for each row in the test set. This will simply be a csv with a single column of the probability  **_with 'wage' as a header_**. Use the link below to fill out a google form with your predictions. 
 
-The task is to predict if a person's income is in excess of $50,000 given certain profile information.
+#### [Submission Link](https://docs.google.com/forms/d/e/1FAIpQLSeKSkyg8x4UEKy1pcDqLEPiKJk184lTQvNVLaIdWnbg4Kh4eA/viewform?usp=sf_link)
 
 Good luck!
