@@ -43,7 +43,7 @@ Your team will have until 5:00 Eastern / 4:00 Central (East Coast) or 5:00 Mount
 
 # ![](https://media.giphy.com/media/aL4bDxt8fbpy8/giphy.gif)
 
- Descriptions of the data can be found [here](http://archive.ics.uci.edu/ml/machine-learning-databases/adult/old.adult.names) and [here](http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.names).
+ Descriptions of the data can be found [here](https://archive.ics.uci.edu/ml/datasets/adult). 
  
  ### Submission
  ---
