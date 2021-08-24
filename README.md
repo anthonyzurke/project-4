@@ -39,8 +39,6 @@ You will be given a dataset and teams will be randomly assigned to one constrain
 - Your choice of features
 - Your choice of samples
 
-Your team will have until 5:00 Eastern / 4:00 Central (East Coast) or 5:00 Mountain / 4:00 Pacific (West Coast) to build the best model possible under those constraints.
-
 # ![](https://media.giphy.com/media/aL4bDxt8fbpy8/giphy.gif)
 
  Descriptions of the data can be found [here](https://archive.ics.uci.edu/ml/datasets/adult). 
@@ -48,8 +46,6 @@ Your team will have until 5:00 Eastern / 4:00 Central (East Coast) or 5:00 Mount
  ### Submission
  ---
 
-The task is to predict if a person's income is in excess of $50,000 given certain profile information, and more specifically to generate predicted probabilities of income being **above** $50,000 for each row in the test set. This will simply be a csv with a single column of the probability  **_with 'wage' as a header_**. Use the link below to fill out a google form with your predictions. 
-
-#### [Submission Link](https://docs.google.com/forms/d/e/1FAIpQLSeKSkyg8x4UEKy1pcDqLEPiKJk184lTQvNVLaIdWnbg4Kh4eA/viewform?usp=sf_link)
+The task is to predict if a person's income is in excess of $50,000 given certain profile information, and more specifically to generate predicted probabilities of income being **above** $50,000 for each row in the test set. This will simply be a csv with a single column of the probability  **_with 'wage' as a header_**. 
 
 Good luck!
