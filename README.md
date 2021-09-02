@@ -8,6 +8,7 @@
 2. [Data Dictionary](#Data-Dictionary)
 3. [Preprocessing & Modeling](#Preprocessing-and-Modeling)
 4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
+5. [Datasets](#Datasets)
 
 ---
 
@@ -45,8 +46,24 @@ Using data from UC Irvine Machine Learning build a model that can predict if a p
 
 Data cleaning included dropping the following features: final weight, education, marital status, and occupation. Null values or non numerical values were dropped. The wage and native country columns were binarized and the sex, relationship and workclass columns were dummied.
 
+The models used were a Random Forest Classifier, XGBoost Classifier, and XGBoost-Dart Classifer. First, a baseline score was established then I used GridSearchCV to identify the best scores and parameters generated from the models. The models consisted of 18 features.
+
+|Model                       |Average Cross Val Score    |
+|---                         |---                        |
+|Random Forest               |0.842                      |
+|XGBoost Classifer           |0.856                      |
+|XGBoost-Dart Classifer      |0.854                      |                    
+
 ---
 
 ### Conclusion & Recommendations
 
+In summary, the 3 models used performed better in predicting wage under 50k that it was predicting over 50k. Precision scores across the 3 models were fairly similar, but the best score came from the Random Forest Classifier with 0.80. The model with the highest accuracy score was XGBoost Classifier with .8529
 
+---
+
+### Datasets
+
+* [large_train_sample.csv]('data/large_train_sample.csv'): Train Sample Data
+* [test_data.csv]('data/test_data.csv'): Test Data
+* [sub.csv]('./data/sub.csv'): Submission Data
