@@ -1,51 +1,52 @@
----
-title: Data Science Venn Diagram
-type: exercise
-creator:
-    name: Alexander Combs
-    city: NYC
----
-
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Data Science Venn Diagram
-
-Today we are going to have a team-based competition. The goal is to create the best performing model on a hold-out sample of data. Simple right?
-
-Well, there is a catch.
-
-This will be a constrained optimization. To understand what that means, let's take a look at the Project Management Venn Diagram, below.
-
-![](https://berkonomics.com/wp-content/uploads/2015/11/goodfastcheap1-1.png)
-
-The idea is that for any project you can have any two of these. You can have good work done cheap, but it will take a long time. You can have good work done fast, but it won't be cheap. Or you can have work done fast and on the cheap, but it won't be good.
-
-Today we will apply this concept to data science.
-
-You will be given a dataset and teams will be randomly assigned to one constraint: samples, features or algorithm.
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Project 4
 
 ---
 
-### Team Sample Constraint
-- Your choice of algorithm
-- Your choice of features
-- **Must use the cheap train sample**
+### Table of Contents
 
-### Team Features Constraint
-- Your choice of algorithm
-- **Limited to a maximum of 20 features**
-- Your choice of samples
+1. [Problem Statement](#Problem-Statement)
+2. [Data Dictionary](#Data-Dictionary)
+3. [Preprocessing & Modeling](#Preprocessing-and-Modeling)
+4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
-### Team Algorithm Constraint
-- **Must use a Random Forest**
-- Your choice of features
-- Your choice of samples
+---
 
-# ![](https://media.giphy.com/media/aL4bDxt8fbpy8/giphy.gif)
+### Problem Statement
 
- Descriptions of the data can be found [here](https://archive.ics.uci.edu/ml/datasets/adult). 
- 
- ### Submission
- ---
+Using data from UC Irvine Machine Learning build a model that can predict if a person's income is in excess of $50,000 given certain profile information
 
-The task is to predict if a person's income is in excess of $50,000 given certain profile information, and more specifically to generate predicted probabilities of income being **above** $50,000 for each row in the test set. This will simply be a csv with a single column of the probability  **_with 'wage' as a header_**. 
+---
 
-Good luck!
+### Data Dictionary
+
+|Feature                     |Type    |Dataset             |Description              |
+|---                         |---     |---                 |---                      |
+|age                         |int64   |large_train_sample  |person's age             |
+|education-num               |int64   |large_train_sample  |years of education       |
+|capital-gain                |int64   |large_train_sample  |capital gained                      |
+|capital-loss                |int64   |large_train_sample  |capital lost                        |
+|hours-per-week              |int64   |large_train_sample  |average hours worked per week       |
+|native-country              |int64   |large_train_sample  |1: from United States, 0: other, engineered feature           |
+|wage                        |int64   |large_train_sample  |1: made over 50k, 0: made under 50k, engineered feature       |
+|relationship_Other-relative |int64   |large_train_sample  |engineered feature       |
+|relationship_Own-child      |int64   |large_train_sample  |engineered feature       |
+|relationship_Unmarried      |int64   |large_train_sample  |engineered feature       |
+|relationship_Wife           |int64   |large_train_sample  |engineered feature       |
+|workclass_Local-gov         |int64   |large_train_sample  |engineered feature       |
+|workclass_Private           |int64   |large_train_sample  |engineered feature       |
+|workclass_Self-emp-inc      |int64   |large_train_sample  |engineered feature       |
+|workclass_Self-emp-not-inc  |int64   |large_train_sample  |engineered feature       |
+|workclass_State-gov         |int64   |large_train_sample  |engineered feature       |
+|workclass_ Without-pay      |int64   |large_train_sample  |engineered feature       |
+
+---
+
+### Preprocessing & Modeling
+
+Data cleaning included dropping the following features: final weight, education, marital status, and occupation. Null values or non numerical values were dropped. The wage and native country columns were binarized and the sex, relationship and workclass columns were dummied.
+
+---
+
+### Conclusion & Recommendations
+
+
