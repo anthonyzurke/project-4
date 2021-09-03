@@ -1,2 +1,8 @@
 .DS_Store
 .ipynb_checkpoints
+
+git config --global core.excludesfile '~/.gitignore'
+echo '.ipynb_checkpoints' >> ~/.gitignore
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
