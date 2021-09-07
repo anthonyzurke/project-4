@@ -48,11 +48,11 @@ Data cleaning included dropping the following features: final weight, education,
 
 The models used were a Random Forest Classifier, XGBoost Classifier, and XGBoost-Dart Classifer. First, a baseline score was established then I used GridSearchCV to identify the best scores and parameters generated from the models. The models consisted of 18 features.
 
-|Model                       |Average Cross Val Score    |
-|---                         |---                        |
-|Random Forest               |0.842                      |
-|XGBoost Classifer           |0.856                      |
-|XGBoost-Dart Classifer      |0.854                      |                    
+|Model                       |R2 Traing Score     |R2 Testing Score    |Cross Val Score    |
+|---                         |---                 |---                 |---                |
+|Random Forest               |0.846               |0.837               |0.842              |
+|XGBoost Classifer           |0.860               |0.853               |0.856              |
+|XGBoost-Dart Classifer      |0.872               |0.853               |0.854              |
 
 ---
 
